@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="@string/confirmation"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:paddingStart="30dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sfprodisplayregular"
+        android:paddingLeft="20dp"
+        android:text="@string/do_you_want_to_make_the_call"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:paddingStart="30dp"
+        tools:ignore="RtlSymmetry" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/dialog_yes"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@id/dialog_no"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:layout_toStartOf="@id/dialog_no" />
+
+        <Button
+            android:id="@+id/dialog_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/no"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp" />
+    </RelativeLayout>
+</LinearLayout>

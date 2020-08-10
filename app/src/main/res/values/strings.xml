@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Auth</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="fullname">Fullname</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">submit</string>
+    <string name="email">Email</string>
+    <string name="todo">TODO</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="welcome_back">Welcome\nBack</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="email_username">Email/Username</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User?</string>
+
+    <string name="location">Location</string>
+    <string name="destination">Destination</string>
+    <string name="seat">Seat</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="waiting_for_driver">Waiting for driver</string>
+    <string name="cancel">cancel</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="do_you_want_to_make_the_call">Do you want to make the call?</string>
+    <string name="confirmation">Confirmation</string>
+
+    <string name="transfer">Transfer</string>
+    <string name="recipient">Recipient</string>
+    <string name="amount">Amount</string>
+    <string name="message_optional">Message(optional)</string>
+    <string name="done">Done</string>
+
+    <string name="fund_wallet">Fund Wallet</string>
+    <string name="mr_ade">Mr Ade</string>
+    <string name="my_wallet">My wallet</string>
+    <string name="add_money">Add money</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="balance">Balance</string>
+    <string name="wallet_balance">wallet balance:</string>
+    <string name="_20000">20000</string>
+
+
+</resources>
